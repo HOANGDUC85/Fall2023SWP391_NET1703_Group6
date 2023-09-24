@@ -24,7 +24,7 @@
         </div>
         <div class="body">
             <div class="logo"> 
-                <img src="../img/logobia.png">
+                <img src="../logobia.png">
             </div>
             <div class="container">
                 <h1>Đăng ký</h1>

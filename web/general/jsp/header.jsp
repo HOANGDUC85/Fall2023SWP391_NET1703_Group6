@@ -49,7 +49,7 @@
                                 </ul>
                             </div>
                             <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Login</a>
+                                <a href="login.jsp"><i class="fa fa-user"></i> Login</a>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="homePage.html"><img src="../img/logoheada.png" alt=""></a>
+                        <a href="../../static/jsp/homePage.jsp"><img src="../img/logoheada.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-8">

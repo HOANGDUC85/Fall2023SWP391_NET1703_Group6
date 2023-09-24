@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package controller;
 
 import dao.UserDAO;
@@ -15,17 +10,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/**
- *
- * @author QUANHONG
- */
 public class LoginController extends HttpServlet {
+
     private static final String LOGIN_PAGE = "login.jsp";
     private static final String HOMEPAGE = "homePage.jsp";
     private static final String DASHBOARD = "dashboard.jsp";
     private static final String US = "User";
     private static final String AD = "Admin";
-   protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         String url = LOGIN_PAGE;
@@ -48,7 +41,7 @@ public class LoginController extends HttpServlet {
                 } else {
                     request.setAttribute("ERROR", "Tài khoản của bạn không được hỗ trợ !");
                 }
-                        
+
             }
         } catch (Exception e) {
             log("Error at LoginController: " + e.toString());

@@ -17,9 +17,7 @@
         <title>Quản lí người dùng</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/userManager.css">
-        <link rel="stylesheet" href="./admin/css/userManager.css">
     </head>
     <body>
         <header>

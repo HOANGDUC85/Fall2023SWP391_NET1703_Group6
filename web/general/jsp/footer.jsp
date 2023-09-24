@@ -24,18 +24,18 @@
             <div class="box-container">
                 <div class="box">
                     <h3>THÔNG TIN CỬA HÀNG</h3>
-                    <a href="homepage.html">Trang Chủ</a>
-                    <a href="../policy/IntroduceShop.jsp">Giới Thiệu</a>
+                    <a href="../../static/jsp/homePage.jsp">Trang Chủ</a>
+                    <a href="../../policy/jsp/IntroduceShop.jsp">Giới Thiệu</a>
                     <a href="#">Liên Hệ</a>
                     <a href="#">Tin Tức</a>
                 </div>
           
                 <div class="box">
                     <h3>CHÍNH SÁCH</h3>
-                    <a href="policy/generalPolicy.jsp">Chính Sách Chung</a>
-                    <a href="policy/buyPolicy.jsp">Chính Sách Mua Hàng</a>
-                    <a href="policy/returnPolicy.jsp">Chính Sách Đổi Trả</a>
-                    <a href="policy/privacyPolicy.jsp">Chính Sách Bảo Mật</a>
+                    <a href="../../policy/jsp/generalPolicy.jsp">Chính Sách Chung</a>
+                    <a href="../../policy/jsp/buyPolicy.jsp">Chính Sách Mua Hàng</a>
+                    <a href="../../policy/jsp/returnPolicy.jsp">Chính Sách Đổi Trả</a>
+                    <a href="../../policy/jsp/privacyPolicy.jsp">Chính Sách Bảo Mật</a>
                 </div>
           
                 <div class="box">
@@ -48,7 +48,7 @@
           
                 <div class="box">
                     <h3>KẾT NỐI</h3>
-                    <a href="https://www.facebook.com/le.huy.28092003">Facebook</a>
+                    <a href="#">Facebook</a>
                     <a href="#">Instagram</a>
                     <a href="#">Tiktok</a>
                     <a href="#">Shoppe</a>

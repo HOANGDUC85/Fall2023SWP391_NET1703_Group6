@@ -7,12 +7,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--        <script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
-        <link rel="stylesheet" type="text/css" href="static/css/login.css">
+        <link rel="stylesheet" type="text/css" href="../css/login.css">
     </head>
     <body>
         <div class="header">
             <div>
-                <img src="static/img/logoheada.png">
+                <img src="../img/logoheada.png">
             </div>
             <div>    
                 <h2> Đăng Nhập </h2>
@@ -21,7 +21,7 @@
 
         <div class="body">
             <div class="logo"> 
-                <img src="../img/logobia.png">
+                <img src="../logobia.png">
             </div>
             <div class="login">
                 <h1>Đăng nhập </h1>

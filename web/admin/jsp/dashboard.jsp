@@ -30,10 +30,10 @@
         <div class="row">
             <aside class="col-md-2" ">
                 <div class="admin">
-                    <img src="../img/admin1.png" width="200px">
+                    <img src="../img/admin1.png" width="300px">
                     <div>
                         <p>
-                            <b>Nguyễn Văn A</b>
+                            <b>Admin Page</b>
                             <br>Chào mừng bạn quay trở lại
                         </p>
                     </div>
@@ -55,7 +55,7 @@
                                 <i class="fa fa-solid fa-users" style="color: #ffffff;"></i>
                             </div>
                             <div class="title">
-                                <a class="nav-link" href="../jsp/userManager.jsp"><span>Quản lí khách hàng</span></a>
+                                <a class="nav-link" href="userManager.jsp"><span>Quản lí khách hàng</span></a>
                             </div>
                         </div>
                     </li>
@@ -67,7 +67,7 @@
                             </div>
 
                             <div class="title">
-                                <a class="nav-link" href ="MainController?action=LoadProduct"><span>Quản lí sản phẩm</span></a>
+                                <a class="nav-link" href ="#"><span>Quản lí sản phẩm</span></a>
                             </div>
                         </div>
                     </li>
