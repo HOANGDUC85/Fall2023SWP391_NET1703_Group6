@@ -23,15 +23,15 @@ import model.User;
 @WebServlet(name = "SearchUserController", urlPatterns = {"/searchUser"})
 public class SearchUserController extends HttpServlet {
 
-    private static final String ERROR = "userManager.jsp";
-    private static final String SUCCESS = "userManager.jsp";
+    private static final String ERROR = "admin/jsp/userManager.jsp";
+    private static final String SUCCESS = "admin/jsp/userManager.jsp";
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         String url = ERROR;
         try {
-            String search = request.getParameter("search");
+            String search = request.getParameter("search"); 
             UserDAO dao = new UserDAO();
             List<User> list = dao.SearchUser(search);
             if (list.size() > 0) {
