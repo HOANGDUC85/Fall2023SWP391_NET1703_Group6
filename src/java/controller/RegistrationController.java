@@ -54,6 +54,10 @@ public class RegistrationController extends HttpServlet {
                 userError.setFullNameError("Tên phải từ 2 tới 50 chữ");
                 checkValidation = false;
             }
+            if (phone.length() < 10 || phone.length()>10) {
+                userError.setPhoneError("Số điện thoại không hợp lệ");
+                checkValidation = false;
+            }
             if (!password.equals(confirm)) {
                 userError.setConfirmError("Hai password không giống nhau");
                 checkValidation = false;
