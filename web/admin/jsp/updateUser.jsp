@@ -3,6 +3,8 @@
     Created on : Sep 20, 2023, 2:07:27 PM
     Author     : Admin
 --%>
+<%@page import="model.User"%>
+<%@page import="dao.UserDAO"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -12,10 +14,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="static/css/updateUser.css">
+        <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/updateUser.css">
     </head>
     <body>
+        <%
+            String userId = request.getParameter("userID");
+            UserDAO dao = new UserDAO();
+            User user = dao.getUserByuserID(userId);
+            request.setAttribute("us", user);
+        %>
         <header>
             <div class="logo">
                 <img src="static/img/logoheadb.png">
@@ -107,7 +115,7 @@
                     </div>
 
                     <div class="container">
-                        <form action="updateUser" method="post">
+                        <form action="/Fall2023SWP391_NET1703_Group6/updateUser" method="post">
                             <table>
                                 <tr>
                                     <td>Tên đăng nhập</td>
