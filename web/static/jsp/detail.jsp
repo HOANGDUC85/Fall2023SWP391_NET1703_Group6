@@ -44,8 +44,8 @@
               </div>
               <div class="m-bot15"> <strong>Price : </strong> <span class="amount-old">$544</span>  <span class="pro-price"> $300.00</span></div>
               <div class="form-group">
-                  <label>Quantity</label>
-                  <input type="quantiy" placeholder="1" class="form-control quantity">
+                  <label>Số lượng</label>
+                  <input type="Số lượng" placeholder="1" class="form-control quantity">
               </div>
               <p>
                   <button class="btn btn-round btn-danger" type="button"><i class="fa fa-shopping-cart"></i> </button>
