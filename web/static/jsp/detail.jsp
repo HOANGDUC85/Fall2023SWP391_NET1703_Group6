@@ -10,12 +10,12 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
         <!-- font awesome cnd link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <!-- css link -->
-        <link rel="stylesheet" href="static/css/index.css">
+        <link rel="stylesheet" href="../css/index.css">
     <title>Document</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
     
     <div class="content">
         <!-- Sử dụng thẻ jsp:include để bao gồm header và footer -->
-        <jsp:include page="header.jsp" />
+        <jsp:include page="../../general/jsp/header.jsp" />
     <!-- end header -->
     <div class="container bootdey">
         <div class="col-md-12">
@@ -65,6 +65,6 @@
           </section>
           </div>
     </div>
-    <jsp:include page="footer.jsp" />
+    <jsp:include page="../../general/jsp/footer.jsp" />
 </body>
 </html>

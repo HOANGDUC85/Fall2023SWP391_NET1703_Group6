@@ -11,12 +11,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Đăng ký tài khoản</title>
-        <link rel="stylesheet" type="text/css" href="static/css/register.css">
+        <link rel="stylesheet" type="text/css" href="../css/register.css">
     </head>
     <body>
         <div class="header">
             <div>
-                <img src="static/img/logoheada.png">
+                <img src="../img/logoheada.png">
             </div>
             <div>    
                 <h2> Đăng Ký </h2>
@@ -24,7 +24,7 @@
         </div>
         <div class="body">
             <div class="logo"> 
-                <img src="static/img/logobia.png">
+                <img src="../img/logobia.png">
             </div>
             <div class="container">
                 <h1>Đăng ký</h1>

@@ -12,20 +12,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
         <!-- font awesome cnd link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <!-- css link -->
-        <link rel="stylesheet" href="../static/css/policy.css">
+        <link rel="stylesheet" href="../css/policy.css">
     </head>
 
     <body>
         <!-- start header -->
 
         <div class="content">
-            <jsp:include page="header.jsp" />
+            <jsp:include page="../../general/jsp/header.jsp" />
             <!-- end header -->
             <!-- start main -->
             <div class="row row-main">
@@ -42,7 +42,7 @@
 
                                     <div class="img has-hover x md-x lg-x y md-y lg-y" >
                                         <div class="logo-main">
-                                            <img src="../static/img/logoheada.png">
+                                            <img src="../../general/img/logoheadb.png">
                 </div>
                                         
                                     </div>
@@ -71,6 +71,6 @@
             </div>
             <!-- end main -->
 
-            <jsp:include page="../footer.jsp" />
+            <jsp:include page="../../general/jsp/footer.jsp" />
     </body>
 </html>

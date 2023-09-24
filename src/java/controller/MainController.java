@@ -21,12 +21,12 @@ import model.User;
  */
 public class MainController extends HttpServlet {
     
-    private static final String HOMEPAGE = "homePage.jsp";
+    private static final String HOMEPAGE = "static/jsp/homePage.jsp";
     
     private static final String LOGIN = "Login";
     private static final String LOGIN_CONTROLLER = "LoginController";
     private static final String LOGINPAGE = "LoginPage";
-    private static final String LOGIN_PAGE = "login.jsp";
+    private static final String LOGIN_PAGE = "general/jsp/login.jsp";
     
     private static final String SEARCHUSER = "Search";
     private static final String SEARCHUSER_CONTROLLLER = "SearchUserController";

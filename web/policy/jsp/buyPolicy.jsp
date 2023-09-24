@@ -18,14 +18,14 @@
         <!-- font awesome cnd link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <!-- css link -->
-        <link rel="stylesheet" href="../static/css/policy.css">
+        <link rel="stylesheet" href="../css/policy.css">
     </head>
 
     <body>
         <!-- start header -->
 
 <div class="content">
-        <jsp:include page="header.jsp" />
+    <jsp:include page="../../general/jsp/header.jsp" />
         <!-- end header -->
  <!-- start main -->
     <div class="row row-main">
@@ -84,6 +84,6 @@
     </div>
     <!-- end main -->
      
-        <jsp:include page="../footer.jsp" />
+    <jsp:include page="../../general/jsp/footer.jsp" />
     </body>
 </html>

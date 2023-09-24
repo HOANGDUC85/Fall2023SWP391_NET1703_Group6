@@ -17,14 +17,14 @@
         <!-- font awesome cnd link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <!-- css link -->
-        <link rel="stylesheet" href="static/css/index.css">
+        <link rel="stylesheet" href="../css/index.css">
     </head>
     <body>
         <!-- header -->
        
        <div class="content">
         <!-- Sử dụng thẻ jsp:include để bao gồm header và footer -->
-        <jsp:include page="header.jsp" />
+        <jsp:include page="../../general/jsp/header.jsp" />
     <!-- end header -->
 
     <!--start home section-->
@@ -90,7 +90,7 @@
             </div>
         </div>
 
-        <jsp:include page="footer.jsp" />
+        <jsp:include page="../../general/jsp/footer.jsp" />
         <!-- end item -->
         
 

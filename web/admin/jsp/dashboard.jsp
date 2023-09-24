@@ -12,14 +12,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ Admin</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/dashboard.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
 </head>
 <body>
     <header>
         
         <div class="logo">
-            <img src="static/img/logoheadb.png">
+            <img src="../../general/img/logoheadb.png">
         </div>
         
         <div class="login">
@@ -30,7 +30,7 @@
         <div class="row">
             <aside class="col-md-2" ">
                 <div class="admin">
-                    <img src="static/img/admin1.png" width="200px">
+                    <img src="../img/admin1.png" width="200px">
                     <div>
                         <p>
                             <b>Nguyễn Văn A</b>
@@ -55,7 +55,7 @@
                                 <i class="fa fa-solid fa-users" style="color: #ffffff;"></i>
                             </div>
                             <div class="title">
-                                <a class="nav-link" href="userManager.jsp"><span>Quản lí khách hàng</span></a>
+                                <a class="nav-link" href="../jsp/userManager.jsp"><span>Quản lí khách hàng</span></a>
                             </div>
                         </div>
                     </li>

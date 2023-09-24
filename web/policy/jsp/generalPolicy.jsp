@@ -23,7 +23,7 @@
 
     <body>
         <!-- start header -->
-        <jsp:include page="header.jsp" />
+        <jsp:include page="../static/jsp/header.jsp" />
         <!-- end header -->
         <!-- start main -->
         <div class="row row-main">
@@ -83,6 +83,6 @@
                 </div>
             </div>
         </div>
-        <jsp:include page="../footer.jsp" />
+        
     </body>
 </html>

@@ -21,7 +21,7 @@
 
         <div class="body">
             <div class="logo"> 
-                <img src="static/img/logobia.png">
+                <img src="../img/logobia.png">
             </div>
             <div class="login">
                 <h1>Đăng nhập </h1>

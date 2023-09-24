@@ -16,13 +16,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Quản lí người dùng</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="static/css/userManager.css">
+        <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="..//css/userManager.css">
     </head>
     <body>
         <header>
             <div class="logo">
-                <img src="static/img/logoheadb.png">
+                <img src="../../general/img/logoheadb.png">
             </div>
 
             <div class="login">
@@ -33,7 +33,7 @@
             <div class="row">
                 <aside class="col-md-2" ">
                     <div class="admin">
-                        <img src="static/img/admin1.png" width="200px">
+                        <img src="../img/admin1.png" width="200px">
                         <div>
                             <p>
                                 <b>Quang Huy</b>
