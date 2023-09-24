@@ -17,7 +17,9 @@
         <title>Quản lí người dùng</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="..//css/userManager.css">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/userManager.css">
+        <link rel="stylesheet" href="./admin/css/userManager.css">
     </head>
     <body>
         <header>
@@ -111,15 +113,15 @@
                     </div>
                     <div class="container">
                         <%
-            UserDAO dao = new UserDAO();
-            List<User> listU = (List<User>) request.getAttribute("listU");
-            if (listU == null) {
-                listU = dao.SearchUser("");
-                request.setAttribute("listU", listU);
+                            UserDAO dao = new UserDAO();
+                            List<User> listU = (List<User>) request.getAttribute("listU");
+                            if (listU == null) {
+                                listU = dao.SearchUser("");
+                                request.setAttribute("listU", listU);
 
-            }
-        %>
-                        <form action="searchUser" method="POST" class="form-inline">
+                            }
+                        %>
+                        <form action="/Fall2023SWP391_NET1703_Group6/searchUser" method="POST" class="form-inline">
                             <div class="form-group">
                                 <input type="text"  class="form-control"  name="search" id="search" />
                             </div>
@@ -154,8 +156,8 @@
                                             <td>${x.roleID}</td>
                                             <td>
                                                 <div class="btn-group">
-                                                    <a href="updateUser?userID=${x.userID}" class="btn btn-success">Update</a>
-                                                    <a href="deleteUser?userID=${x.userID}" class="btn btn-danger">Delete</a>
+                                                    <a href="/Fall2023SWP391_NET1703_Group6/admin/jsp/updateUser.jsp?userID=${x.userID}" class="btn btn-success">Update</a>
+                                                    <a href="/Fall2023SWP391_NET1703_Group6/deleteUser?userID=${x.userID}" class="btn btn-danger">Delete</a>
                                                 </div>
                                             </td>
                                         </tr>
